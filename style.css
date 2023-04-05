@@ -8,6 +8,16 @@
   position: absolute;
 }
 
+
+.blueDot{
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color:rgba(43,97,209,1);
+  z-index: 2;
+  overflow:hidden;
+}
+
 .topnav{
   background-color:white!important;
 }
@@ -49,7 +59,7 @@ body{
   line-height:135%;
   padding-left:10%;
   color:rgba(48,59,82,0.7);
-  font-weight:thin;
+  font-weight:400;
   font-size:1.15vw;
   width:40%;
 }
@@ -59,6 +69,23 @@ body{
   padding-left:10%;
 }
 
+#headerBut1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+background: #2B61D1;
+border-radius: 70px;
+display:inline-block;
+align-items: center;
+text-align: center;
+color: #FFF;
+width:200px;
+padding-top:10px;
+/*height:50px;*/
+padding-bottom:10px;
+}
 
 
 #headerBut1:hover{
@@ -67,19 +94,19 @@ body{
 }
 
 #headerBut2{
-border: 2px solid #FFFFFF;
+border: 2px solid #5F6578;
 border-radius: 70px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: 18px;
 line-height: 150%;
 background: transparent;
 border-radius: 70px;
 display:inline-block;
 align-items: center;
 text-align: center;
-color: #FFFFFF;
+color: #5F6578;
 width:200px;
 padding-top:8px;
 height:50px;
@@ -89,4 +116,41 @@ padding-bottom:10px;
 #headerBut2:hover{
   background-color: #FFFFFF;
   color: #161A23;
+}
+
+
+.nodes{
+  background-image: linear-gradient(rgba(255,255,255,0.84), rgba(255,255,255,0.11));
+  width:25%;
+  height:10%;
+  margin-left:10%;
+  margin-top:3%;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.nodes h1, .nodes h3, .nodes h2{
+  float:left;
+  font-weight:bold;
+}
+
+.nodes h1, .nodes h3, .nodes h2{
+  margin-left:12%;
+  margin-top:6%;
+}
+
+.nodes h1{
+  margin-top:10%;
+}
+
+.nodes h3{
+  margin-left:15%;
+  margin-top:7%;
+  font-size:1.5vw;
+}
+
+.smallDesc{
+  color:#999CB1;
+  margin-left:10%;
+  font-size:1vw;
 }
