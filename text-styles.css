@@ -1,0 +1,29 @@
+.uppercase{
+  text-transform: uppercase;
+}
+
+.blue-text{
+  color:#2B61D1!important;
+}
+
+.light-blue-text{
+  color:#2D8EFF!important;
+}
+
+.bold{
+  font-weight:bold;
+}
+
+.smallDesc{
+  color:#999CB1;
+  font-size:1vw;
+}
+
+.headerimg .smallDesc{
+  margin-left:10%;
+}
+
+.center{
+  text-align:center;
+  margin:0px;
+}
