@@ -25,7 +25,10 @@
 
 .center{
   text-align:center;
-  margin:0px;
+}
+
+.left{
+  text-align:left;
 }
 
 .right{
@@ -36,4 +39,11 @@
   text-align:center;
   margin-left:20%;
   margin-right:20%;
+}
+
+.small-grey{
+  line-height:135%;
+  color:rgba(152,167,185,0.5);
+  font-weight:400;
+  font-size:1.15vw;
 }
