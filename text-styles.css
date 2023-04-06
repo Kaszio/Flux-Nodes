@@ -30,7 +30,9 @@
 .left{
   text-align:left;
 }
-
+.left2{
+  float:left;
+}
 .right{
   float:right;
 }
