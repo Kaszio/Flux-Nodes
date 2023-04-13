@@ -192,11 +192,11 @@
 }
 .hardwareDiv .SubText{
   margin-left:5px;
-  font-size:13px!important;
+  font-size:15px!important;
 }
 
 .div8 .TitleText{
-  font-size:30px!important;
+  font-size:50px!important;
 }
 
 .div9 .SubText{
@@ -208,18 +208,19 @@
   float:left;
   width:80%;
   box-shadow: 0.5vw 0.5vw 2vw 0.1vw rgba(43, 97, 209, 0.1);
-  height:90%;
+  height:70%;
   border-radius:3vw;
   font-size:30px;
   color:black;
+  text-align: center;
 }
 
 .puchaseOption img{
-  width:45%;
-  margin-top:5%;
-  margin-left:3%;
+  width:80%;
+  margin-left:15%;
   float:left;
 }
+
 .btnTrans2{
   font-size:15px!important;
   width:70%!important;
@@ -238,4 +239,40 @@
   font-size:15px;
 }
 
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(9, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.div1 { grid-area: 3 / 1 / 4 / 3; }
+.div2 { grid-area: 5 / 1 / 6 / 3; }
+.div3 { grid-area: 6 / 1 / 7 / 3; }
+.div4 { grid-area: 7 / 1 / 8 / 3; }
+.div5 { grid-area: 8 / 1 / 9 / 3; }
+.div6 { grid-area: 9 / 1 / 10 / 3; }
+.div7 { grid-area: 4 / 1 / 5 / 3; }
+.div8 { grid-area: 1 / 1 / 2 / 3; }
+.div9 { grid-area: 2 / 1 / 3 / 3; }
+
+.div8 .TitleText{
+  padding-top:0px;
+}
+
+.div8{
+  height:20%;
+}
+
+.div8 .TitleText .lineBreak{
+    display: block;
+}
+.div8 .TitleText .lineBreak::before {
+      content: attr(data-text);
+}
+.navbar_navbar2__idmo4{
+  visibility: hidden;
+  width:20%!important;
+}
 }
